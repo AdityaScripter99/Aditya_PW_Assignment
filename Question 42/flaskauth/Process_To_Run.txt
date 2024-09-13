@@ -1,0 +1,5 @@
+conda create -n fauth python=3.12.0
+conda activate fauth
+pip install -r requirements.txt
+chmod 777 run
+./run
